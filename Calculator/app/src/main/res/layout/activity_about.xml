@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+        <TextView
+            android:id="@+id/ab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10pt"
+            android:text="Это... Обычный Калькулятор"
+            android:gravity="center_horizontal"
+            android:textSize="15pt"></TextView>
+
+        <TextView
+            android:id="@+id/ab2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100pt"
+            android:text="А это мой WebMoney:"
+            android:gravity="center_horizontal"
+            android:textSize="15pt"></TextView>
+        <TextView
+            android:id="@+id/webMoney"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10pt"
+            android:text="R171892240018"
+            android:gravity="center_horizontal"
+            android:textSize="15pt"></TextView>
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:text="Назад"
+            android:layout_marginTop="20pt"/>
+
+</LinearLayout>
